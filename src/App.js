@@ -12,7 +12,7 @@ import './App.css';
 // easily convert numbers into US dollar values
 const USCurrencyFormat = new Intl.NumberFormat('en-US', {
   style: 'currency',
-  currency: 'USD'ddd
+  currency: 'USD'
 });
 
 class App extends Component {
