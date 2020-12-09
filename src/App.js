@@ -52,7 +52,6 @@ class App extends Component {
         <Header/>
         <main>
           <CForm 
-          features = {this.props.features} 
           selected = {this.state.selected} 
           updateFeature = {this.updateFeature} 
           USCurrencyFormat = {USCurrencyFormat}

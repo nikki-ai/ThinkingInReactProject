@@ -14,6 +14,7 @@ class Cart extends React.Component {
 
           <Total 
           selected = {this.props.selected}
+          USCurrencyFormat = {this.props.USCurrencyFormat}
           />
           </div>
         )
