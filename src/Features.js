@@ -14,6 +14,7 @@ class Features extends React.Component {
             selected={this.props.selected} 
             updateFeature={this.props.updateFeature} 
             USCurrencyFormat={this.props.USCurrencyFormat}
+            FEATURES = {this.props.FEATURES}
             />
             </div>
         )

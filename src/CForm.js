@@ -1,5 +1,6 @@
 import React from 'react';
 import Features from './Features';
+import FEATURES from './FeaturesObject';
 
 class CForm extends React.Component {
 
@@ -10,6 +11,7 @@ render () {
             selected = {this.props.selected} 
             updateFeature = {this.props.updateFeature} 
             USCurrencyFormat = {this.props.USCurrencyFormat}
+            FEATURES = {FEATURES}
             />
             
           </form>
